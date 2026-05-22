@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            
+            <button id="btn-tema" style="margin-top: 30px; padding: 10px; cursor: pointer; border-radius: 5px; border: none; font-weight: bold;">
+                Modo Escuro 
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <img src="./minhafoto.jpeg" alt="Minha foto de perfil">
+            <h1> Me chamo Ricardo </h1>
+            <p>Sou o Ricardo, estudante do 3º período de Engenharia de Software no iCEV, em Teresina. Sou apaixonado por tecnologia e focado em entender como os sistemas operam desde a lógica estrutural até a interface do usuário.
+Atualmente, aplico minha visão analítica no setor público, atuando na Secretaria de Estado de Saneamento Básico do Piauí (SESB-PI). Dentro da Diretoria de Obras (DTO), lido com especificações e relatórios de projetos que têm impacto social direto. Essa vivência tem me ensinado na prática a importância de alinhar a engenharia às necessidades reais das pessoas.
+No desenvolvimento de software, venho construindo uma base sólida em tecnologias web (HTML, CSS e JavaScript), Java e banco de dados relacionais (SQL), além de utilizar Git/GitHub para versionamento e colaboração. Meu objetivo é continuar aprimorando minhas habilidades na construção de aplicações eficientes, modernas e que realmente façam a diferença.</p>
+        </section>
+        <section id="habilidades">
+            <ul>
+                <li>HTML5 e CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+    
+<section id="projetos">
+            <h2>Meus Projetos</h2>
+            
+            <article class="projeto-card">
+                <img src="syntaxprint.png" alt="Print de tela do projeto Syntax">
+                <div class="projeto-info">
+                    <h3>Projeto Syntax</h3>
+                    <p>O Syntax é uma landing page completa desenvolvida para apresentar e comercializar um curso de programação web. O projeto é composto por um frontend estático hospedado no GitHub Pages, que se comunica com um backend externo para processamento de pagamentos, integração com o GitHub e envio de e-mails.</p>
+                    <a href="https://github.com/jfplandim/CursoDeProgWeb">Ver repositório</a>
+                </div>
+            </article>
+
+            <article class="projeto-card">
+                <img src="escalonadorprint.png" alt="Print de tela do projeto Escalonador de Processos">
+                <div class="projeto-info">
+                    <h3>Projeto Escalonador de Processos</h3>
+                    <p>Este projeto implementa o escalonador de processos do sistema operacional fictício iCEVOS, desenvolvido como parte da disciplina Algoritmos e Estrutura de Dados I. O escalonador é responsável por decidir qual processo terá acesso à CPU em cada ciclo, considerando:
+<br>
+🎯 Listas de prioridade (alta, média e baixa)
+<br>
+🛡️ Prevenção de inanição (starvation)
+<br>
+🔒 Gerenciamento de recursos (processos bloqueados por DISCO)
+<br>
+⚡ Execução em tempo real com logs detalhados</p>
+<br>
+                    <a href="https://github.com/jfplandim/escalonador_de_processos">Ver repositório</a>
+                </div>
+            </article>
+
+            <article class="projeto-card">
+                <img src="paginanoticiasprint.png" alt="Print de tela do projeto Página de Notícias">
+                <div class="projeto-info">
+                    <h3>Projeto Página de Noticias</h3>
+                    <p>Este projeto consiste em uma página web responsiva para exibição de notícias, desenvolvida com HTML, CSS e JavaScript. O design é moderno e otimizado para diferentes dispositivos, proporcionando uma excelente experiência ao usuário.</p>
+                    <a href="https://github.com/jfplandim/pagina_de_noticias">Ver repositório</a>
+                </div>
+            </article>
+        </section>
+    
+        <section id="contato">
+            <ul>
+                <li><a href="mailto:ricgaspar13@gmail.com">Email</a></li>
+                <li><a href="https://github.com/ricgasparrr">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/ricardo-cronemberger-74b16b364?utm_source=share_via&utm_content=profile&utm_medium=member_android">Linkedin</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ricardo Cronemberger. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+
+</html>
