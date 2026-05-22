@@ -5,6 +5,9 @@
     --cor-bege: #d6d2c4;         
     --cor-clara: #faf7f0;        
 }
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -51,7 +54,7 @@ nav a:hover {
 
 
 main {
-    margin-left: 250px; 
+    margin-left: 150px; 
     padding: 40px 80px; 
 }
 
@@ -85,7 +88,7 @@ h2 {
 }
 
 footer {
-    margin-left: 250px; 
+    margin-left: 150px; 
     background-color: var(--cor-escura);
     color: var(--cor-clara);
     text-align: center;
@@ -212,11 +215,11 @@ footer {
 
     main {
         margin-left: 0; 
-        padding: 30px 20px; 
+        padding: 40px 80px; 
     }
 
     footer {
-        margin-left: 0; 
+        margin-left: 150px; 
     }
 
     h1 {
